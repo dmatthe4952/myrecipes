@@ -1,0 +1,37 @@
+$navbar-default-bg: #9bafcf;
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+.navbar-default-bg {
+  background-color: $navbar-default-bg;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #66d;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cooking2.jpeg');
+  background-size: cover;
+  height: 350px;
+}
+.jumbotron h1, h2 {
+  background-color: rgba(155,175,207,.5);
+  margin: 25%,auto;
+
+}
